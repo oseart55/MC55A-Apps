@@ -1,0 +1,35 @@
+{
+  "name": "MC55A Apps",
+  "apps": [
+    {
+      "id": "bookscout",
+      "name": "Book Scout",
+      "repo": "oseart55/BookScanner",
+      "description": "Scan books and see instantly whether Ziffit will buy them. Tracks your haul and profit.",
+      "folder": "BookScout",
+      "exe": "BookScannerApp.exe",
+      "keep": ["ziffit.cfg", "update.cfg"]
+    },
+    {
+      "id": "clocksync",
+      "name": "ClockSync",
+      "repo": "oseart55/ClockSync",
+      "description": "Sets the clock from internet time servers at every boot and whenever the network connects.",
+      "folder": "ClockSync",
+      "exe": "ClockSync.exe",
+      "shortcut": "Sync Clock",
+      "install": "/install",
+      "uninstall": "/uninstall",
+      "keep": ["ClockSync.ini"]
+    },
+    {
+      "id": "appstore",
+      "name": "App Store",
+      "repo": "oseart55/AppStore",
+      "description": "This app. Install it here to keep a permanent copy in \\Application that updates itself.",
+      "folder": "AppStore",
+      "exe": "AppStore.exe",
+      "keep": ["store.cfg"]
+    }
+  ]
+}
