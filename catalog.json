@@ -39,6 +39,16 @@
       "folder": "TlsProbe",
       "exe": "TlsProbe.exe",
       "assets": ["TlsProbe.exe"]
+    },
+    {
+      "id": "cetlsspy",
+      "name": "CeTls Spy",
+      "repo": "oseart55/CeTls",
+      "description": "Diagnostic for the CeTls project: logs how programs use secure sockets (passes everything through unchanged; never logs data). Open it to switch on or off.",
+      "folder": "CeTlsSpy",
+      "exe": "CeTlsSpy.exe",
+      "assets": ["CeTlsSpy.exe", "CeTlsSpy.dll"],
+      "uninstall": "/off"
     }
   ]
 }
