@@ -16,6 +16,7 @@ installed.
 | **Book Scout** | Scan books and see instantly whether Ziffit will buy them. Tracks your haul and profit. | [oseart55/BookScanner](https://github.com/oseart55/BookScanner) |
 | **ClockSync** | Sets the clock from internet time servers at every boot and whenever the network connects. | [oseart55/ClockSync](https://github.com/oseart55/ClockSync) |
 | **App Store** | The store itself. Install it from the list to keep a permanent copy in `\Application` that updates itself. | [oseart55/AppStore](https://github.com/oseart55/AppStore) |
+| **CeTls** | Modern TLS for the whole device: replaces the TLS library IE and other programs use, adding TLS 1.2 and SNI. Open it to install, test or remove it; a clean boot also puts the original back. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
 | **TlsProbe** | Diagnostic for the CeTls project (modern TLS for the whole device): records how TLS is set up and writes `TlsProbe.txt` next to itself. Read-only. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
 | **CeTls Spy** | Diagnostic for CeTls: logs how programs use secure sockets, passing everything through unchanged. Open it to switch it on or off. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
 | **SchShadow** | Diagnostic for CeTls: briefly puts a logging stand-in for the TLS library in place to see what IE's HTTPS code asks of it, then restores the original. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |

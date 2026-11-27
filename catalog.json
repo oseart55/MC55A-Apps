@@ -98,6 +98,23 @@
       "logs": [
         "RootTest.log"
       ]
+    },
+    {
+      "id": "cetls",
+      "name": "CeTls",
+      "repo": "oseart55/CeTls",
+      "description": "Modern TLS for the whole device: replaces the TLS library Internet Explorer and other programs use, adding TLS 1.2 and SNI (TLS 1.0/1.1 still work). Open it to install, test or remove; a clean boot also puts the original back.",
+      "folder": "CeTls",
+      "exe": "CeTls.exe",
+      "assets": [
+        "CeTls.exe",
+        "cetls.dll"
+      ],
+      "install": "/refresh /quiet",
+      "uninstall": "/uninstall /quiet",
+      "logs": [
+        "CeTls.log"
+      ]
     }
   ]
 }
