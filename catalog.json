@@ -83,6 +83,21 @@
         "SchShadow.log",
         "SchStub.log"
       ]
+    },
+    {
+      "id": "roottest",
+      "name": "RootTest",
+      "repo": "oseart55/CeTls",
+      "description": "Diagnostic for CeTls: checks whether the device can trust modern certificates once it has a modern root. Adds ISRG Root X1 (Let's Encrypt) to the root store and tests before and after. Uninstall removes the root again.",
+      "folder": "RootTest",
+      "exe": "RootTest.exe",
+      "assets": [
+        "RootTest.exe"
+      ],
+      "uninstall": "/remove /quiet",
+      "logs": [
+        "RootTest.log"
+      ]
     }
   ]
 }
