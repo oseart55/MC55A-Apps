@@ -113,9 +113,7 @@
       "install": "/refresh /quiet",
       "uninstall": "/uninstall /quiet",
       "logs": [
-        "CeTls.log",
-        "CeTls-dump.txt",
-        "CeTls-*.bin"
+        "CeTls.log"
       ]
     }
   ]
