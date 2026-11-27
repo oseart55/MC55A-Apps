@@ -8,7 +8,10 @@
       "description": "Scan books and see instantly whether Ziffit will buy them. Tracks your haul and profit.",
       "folder": "BookScout",
       "exe": "BookScannerApp.exe",
-      "keep": ["ziffit.cfg", "update.cfg"]
+      "keep": [
+        "ziffit.cfg",
+        "update.cfg"
+      ]
     },
     {
       "id": "clocksync",
@@ -20,7 +23,9 @@
       "shortcut": "Sync Clock",
       "install": "/install",
       "uninstall": "/uninstall",
-      "keep": ["ClockSync.ini"]
+      "keep": [
+        "ClockSync.ini"
+      ]
     },
     {
       "id": "appstore",
@@ -29,7 +34,9 @@
       "description": "This app. Install it here to keep a permanent copy in \\Application that updates itself.",
       "folder": "AppStore",
       "exe": "AppStore.exe",
-      "keep": ["store.cfg"]
+      "keep": [
+        "store.cfg"
+      ]
     },
     {
       "id": "tlsprobe",
@@ -38,7 +45,9 @@
       "description": "Diagnostic for the CeTls project: records how TLS is set up on this device and writes TlsProbe.txt next to itself. Read-only.",
       "folder": "TlsProbe",
       "exe": "TlsProbe.exe",
-      "assets": ["TlsProbe.exe"]
+      "assets": [
+        "TlsProbe.exe"
+      ]
     },
     {
       "id": "cetlsspy",
@@ -47,8 +56,23 @@
       "description": "Diagnostic for the CeTls project: logs how programs use secure sockets (passes everything through unchanged; never logs data). Open it to switch on or off.",
       "folder": "CeTlsSpy",
       "exe": "CeTlsSpy.exe",
-      "assets": ["CeTlsSpy.exe", "CeTlsSpy.dll"],
+      "assets": [
+        "CeTlsSpy.exe",
+        "CeTlsSpy.dll"
+      ],
       "uninstall": "/off"
+    },
+    {
+      "id": "schshadow",
+      "name": "SchShadow",
+      "repo": "oseart55/CeTls",
+      "description": "Diagnostic for CeTls: for about a minute, puts a logging stand-in for the TLS library (schannel.dll) in place to see what Internet Explorer's HTTPS code asks of it, then restores the original. Soft-reset first.",
+      "folder": "SchShadow",
+      "exe": "SchShadow.exe",
+      "assets": [
+        "SchShadow.exe",
+        "schstub.dll"
+      ]
     }
   ]
 }

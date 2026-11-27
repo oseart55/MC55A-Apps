@@ -18,6 +18,7 @@ installed.
 | **App Store** | The store itself. Install it from the list to keep a permanent copy in `\Application` that updates itself. | [oseart55/AppStore](https://github.com/oseart55/AppStore) |
 | **TlsProbe** | Diagnostic for the CeTls project (modern TLS for the whole device): records how TLS is set up and writes `TlsProbe.txt` next to itself. Read-only. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
 | **CeTls Spy** | Diagnostic for CeTls: logs how programs use secure sockets, passing everything through unchanged. Open it to switch it on or off. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
+| **SchShadow** | Diagnostic for CeTls: briefly puts a logging stand-in for the TLS library in place to see what IE's HTTPS code asks of it, then restores the original. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
 
 All of them use [CeHttps](https://github.com/oseart55/CeHttps) for modern HTTPS
 (TLS 1.3 / 1.2). That's how they reach GitHub and other servers on devices
