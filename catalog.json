@@ -47,6 +47,9 @@
       "exe": "TlsProbe.exe",
       "assets": [
         "TlsProbe.exe"
+      ],
+      "logs": [
+        "TlsProbe*.txt"
       ]
     },
     {
@@ -60,7 +63,10 @@
         "CeTlsSpy.exe",
         "CeTlsSpy.dll"
       ],
-      "uninstall": "/off"
+      "uninstall": "/off",
+      "logs": [
+        "CeTlsSpy*.log"
+      ]
     },
     {
       "id": "schshadow",
@@ -72,6 +78,10 @@
       "assets": [
         "SchShadow.exe",
         "schstub.dll"
+      ],
+      "logs": [
+        "SchShadow.log",
+        "SchStub.log"
       ]
     }
   ]

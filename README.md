@@ -72,6 +72,7 @@ has the full steps and troubleshooting.
 | `assets` | Which release files to install, e.g. `["MyApp.exe"]` (wildcards work). By default App Store takes the release's only `.zip`, or else every attached file. |
 | `install` / `uninstall` | Arguments to run the exe with after installing or updating, and before uninstalling. Used for apps with their own setup step, like ClockSync's `/install`. |
 | `keep` | Files never overwritten once they exist, e.g. settings the user edits. |
+| `logs` | Log files the app writes in its folder (wildcards work). App Store's **Send logs** uploads them to your private logs repo. |
 
 Folder, exe and shortcut names must be plain names: no `\`, `/` or `..`. App
 Store skips entries that break this. The
