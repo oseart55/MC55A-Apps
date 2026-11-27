@@ -30,6 +30,15 @@
       "folder": "AppStore",
       "exe": "AppStore.exe",
       "keep": ["store.cfg"]
+    },
+    {
+      "id": "tlsprobe",
+      "name": "TlsProbe",
+      "repo": "oseart55/CeTls",
+      "description": "Diagnostic for the CeTls project: records how TLS is set up on this device and writes TlsProbe.txt next to itself. Read-only.",
+      "folder": "TlsProbe",
+      "exe": "TlsProbe.exe",
+      "assets": ["TlsProbe.exe"]
     }
   ]
 }

@@ -16,6 +16,7 @@ installed.
 | **Book Scout** | Scan books and see instantly whether Ziffit will buy them. Tracks your haul and profit. | [oseart55/BookScanner](https://github.com/oseart55/BookScanner) |
 | **ClockSync** | Sets the clock from internet time servers at every boot and whenever the network connects. | [oseart55/ClockSync](https://github.com/oseart55/ClockSync) |
 | **App Store** | The store itself. Install it from the list to keep a permanent copy in `\Application` that updates itself. | [oseart55/AppStore](https://github.com/oseart55/AppStore) |
+| **TlsProbe** | Diagnostic for the CeTls project (modern TLS for the whole device): records how TLS is set up and writes `TlsProbe.txt` next to itself. Read-only. | [oseart55/CeTls](https://github.com/oseart55/CeTls) |
 
 All of them use [CeHttps](https://github.com/oseart55/CeHttps) for modern HTTPS
 (TLS 1.3 / 1.2). That's how they reach GitHub and other servers on devices
