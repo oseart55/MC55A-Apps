@@ -63,6 +63,15 @@
       "folder": "FileTransfer",
       "exe": "FileServer.exe",
       "shortcut": "File Server"
+    },
+    {
+      "id": "tuneup",
+      "name": "Tune-up",
+      "repo": "oseart55/TuneUp",
+      "description": "Reversible fixes: CeTls debug leftovers, dead Microsoft services, previous-owner leftovers, faster TCP, IE mobile view. Undo puts it all back.",
+      "folder": "TuneUp",
+      "exe": "TuneUp.exe",
+      "shortcut": "Tune-up"
     }
   ]
 }
