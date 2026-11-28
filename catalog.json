@@ -39,67 +39,6 @@
       ]
     },
     {
-      "id": "tlsprobe",
-      "name": "TlsProbe",
-      "repo": "oseart55/CeTls",
-      "description": "Diagnostic for the CeTls project: records how TLS is set up on this device and writes TlsProbe.txt next to itself. Read-only.",
-      "folder": "TlsProbe",
-      "exe": "TlsProbe.exe",
-      "assets": [
-        "TlsProbe.exe"
-      ],
-      "logs": [
-        "TlsProbe*.txt"
-      ]
-    },
-    {
-      "id": "cetlsspy",
-      "name": "CeTls Spy",
-      "repo": "oseart55/CeTls",
-      "description": "Diagnostic for the CeTls project: logs how programs use secure sockets (passes everything through unchanged; never logs data). Open it to switch on or off.",
-      "folder": "CeTlsSpy",
-      "exe": "CeTlsSpy.exe",
-      "assets": [
-        "CeTlsSpy.exe",
-        "CeTlsSpy.dll"
-      ],
-      "uninstall": "/off",
-      "logs": [
-        "CeTlsSpy*.log"
-      ]
-    },
-    {
-      "id": "schshadow",
-      "name": "SchShadow",
-      "repo": "oseart55/CeTls",
-      "description": "Diagnostic for CeTls: for about a minute, puts a logging stand-in for the TLS library (schannel.dll) in place to see what Internet Explorer's HTTPS code asks of it, then restores the original. Soft-reset first.",
-      "folder": "SchShadow",
-      "exe": "SchShadow.exe",
-      "assets": [
-        "SchShadow.exe",
-        "schstub.dll"
-      ],
-      "logs": [
-        "SchShadow.log",
-        "SchStub.log"
-      ]
-    },
-    {
-      "id": "roottest",
-      "name": "RootTest",
-      "repo": "oseart55/CeTls",
-      "description": "Diagnostic for CeTls: checks whether the device can trust modern certificates once it has a modern root. Adds ISRG Root X1 (Let's Encrypt) to the root store and tests before and after. Uninstall removes the root again.",
-      "folder": "RootTest",
-      "exe": "RootTest.exe",
-      "assets": [
-        "RootTest.exe"
-      ],
-      "uninstall": "/remove /quiet",
-      "logs": [
-        "RootTest.log"
-      ]
-    },
-    {
       "id": "cetls",
       "name": "CeTls",
       "repo": "oseart55/CeTls",
