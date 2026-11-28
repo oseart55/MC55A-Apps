@@ -54,6 +54,15 @@
       "logs": [
         "CeTls.log"
       ]
+    },
+    {
+      "id": "filetransfer",
+      "name": "File Transfer",
+      "repo": "oseart55/FileTransfer",
+      "description": "Wi-Fi file server: copy files to and from the device from a PC (mc55.py / mc55_gui.py).",
+      "folder": "FileTransfer",
+      "exe": "FileServer.exe",
+      "shortcut": "File Server"
     }
   ]
 }
